@@ -1,6 +1,7 @@
 # Case-BeetsJr
 Case de capacitação de HTML e CSS
 
+
 Oi Lari!
 
 Fiz esse case usando o que eu lembrava dos cursos que fiz e bastante daqueles links que vc colocou no seu pdf, ajudou muitoo.
