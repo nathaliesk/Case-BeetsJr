@@ -7,6 +7,8 @@ Oi Lari! :)
 
 Fiz esse case usando o que eu lembrava dos cursos que fiz e bastante daqueles links que vc colocou no seu pdf, ajudou muitoo.
 
+Para o planejamento fiz somente uns rascunhos no papel mesmo e fui implementando.
+
 Tive um pouco de dificuldade em alinhar os elementos, então alguns fiz à base da gambiarra rs. Às vezes eu adicionava um estilo que acabava desativando outro (como o 'position: relative' da div do rodapé que desativou o link que coloquei no logo).
 
 Também não consegui fazer um formato responsivo, por ter problemas para entender muito bem o funcionamento das tags de CSS de alinhamento e afins, quando fui adaptá-las para outros formatos acabou atrapalhando tudo que eu já tinha feito, então decidi continuar com o que eu estava conseguindo fazer.
