@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--informa ao navegador a versão do html que está sendo utilizada-->
+
+<html>
+<!--raiz do arquivo (pai)-->
+
+    <head>
+        <title>Beets | Contato</title> <!--título do site-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="styles/estilo.css">
+
+    </head>
+
+    <body>
+        <!--Navegação-->
+        <nav class="navigation">
+            <div class="navigation-inner">        
+                <div class="main-navigation">
+                    <ul id="menu-principal" class="main-navigation-ul"> <!--Menu principal-->
+                        <li id="menu1" class="item-menu"><a href="case_html_beets-4.html">Contato</a></li>
+                        <li id="menu2" class="item-menu"><a href="case_html_beets-3.html">Produtos</a></li>
+                        <li id="menu3" class="item-menu"><a href="case_html_beets-2.html">Nossa Horta</a></li>
+                        <li id="menu4" class="item-menu"><a href="index.html">Início</a></li>
+                    </ul>
+                </div>
+                <a href="index.html"><img class="logo-branco" src="imagens/logo-case-2.png" alt="logotipo beets"></a>
+            </div>
+        </nav>
+
+        <div class="content">
+            <div class="bloco-cont-1">
+                <h1 class="subt-centro">Entre em contato conosco!</h1>
+            </div>
+            
+            <div class="bloco-horta-1">
+                <div class="bloco-horta-1-i">
+                    <p class="texto-destaque">Preencha o formulário abaixo para <span class="bold">fazer um pedido</span>, tirar dúvidas, enviar elogios ou solicitar uma parceria com a nossa Horta.</p>
+                </div>
+            </div>
+
+            <!--formulário de contato-->
+            <div class="bloco-cont-2">
+                <div class="bloco-cont-2-i">
+                    <form action="pagina-processa-dados-forms" method="POST">
+                        <div class="campo-forms">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="usuario_nome"/>
+                        </div>
+                        <div class="campo-forms">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="usuario_email"/>
+                        </div>
+                        <div class="campo-forms">
+                            <label for="tel">Telefone:</label>
+                            <input type="number" id="tel" name="usuario_tel"/>
+                        </div>
+                        <div class="campo-forms">
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" id="assunto" name="usuario_assunto"/>
+                        </div>
+                        <div class="campo-forms">
+                            <label for="msg">Mensagem:</label>
+                            <textarea id="msg" name="usuario_msg"></textarea>
+                        </div>
+                        <div class="btn-form-div">
+                            <button type="submit" class="btn-form">Enviar sua mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Rodapé-->
+        <div class="rodape">
+            <div class="rodape-inner">
+                <a href="index.html"><img class="logo-rodape" src="imagens/logo-case-3.png" alt="logotipo beets"></a>
+                <div class="rodape-content">
+                    <ul class="rodape-info1">
+                        <li class="item-info-rodape">(15)3333-3333</li>
+                        <li class="item-info-rodape">contato@horta.com.br</li>
+                    </ul>
+                    <div id="linha-rodape"></div>
+                    <ul class="rodape-info2">
+                        <li class="item-info-rodape">Rua da Horta 1234, Vila Beterraba</li>
+                        <li class="item-info-rodape">18000-333 - Sorocaba SP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+
+</html>
